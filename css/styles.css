@@ -18,6 +18,24 @@ body {
     list-style: none;
 }
 
+/* busines-cases*/
+.busines-cases {
+    text-align: center;
+}
+
+.busines-cases-title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.65;
+}
+
+.busines-cases-subtitle {
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 1.26;
+}
+
+
 /* our team  */
 
 .section-text{
