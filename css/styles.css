@@ -1,0 +1,15 @@
+:root {
+    --primary-color: #333333;
+
+    --primary-bg-color: #fff;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1.56;
+    /* or 156% */
+    color: var(--primary-color);
+
+    background-color: var(--primary-bg-color);
+}
