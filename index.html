@@ -127,7 +127,7 @@
     <!-- our-team  -->
     <section class="section">
       <p class="section-text">Who we are</p>
-      <h2 class="section-title">Our Professional Team</h2>
+      <h2 class="section-title section-title-center">Our Professional Team</h2>
       <p class="section-descr">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
         sapiente!
@@ -156,31 +156,36 @@
     </section>
 
     <!-- Request callback -->
-    <section>
+    <section class="container callback-section">
       <img
         src="./images/request-callback-img.jpg"
         alt="The person leaves a feedback"
+        width="680"
       />
 
-      <h2>Request Callback</h2>
+      <div class="callback-container">
+        <h2 class="section-title">Request Callback</h2>
 
-      <form>
-        <input
-          type="text"
-          name="name"
-          aria-label="user name"
-          placeholder="Enter your name"
-        />
+        <form class="callback-form">
+          <input
+            class="form-input form-input-name"
+            type="text"
+            name="name"
+            aria-label="user name"
+            placeholder="Enter your name"
+          />
 
-        <input
-          type="email"
-          name="email"
-          aria-label="email"
-          placeholder="Enter email*"
-        />
+          <input
+            class="form-input form-input-email"
+            type="email"
+            name="email"
+            aria-label="email"
+            placeholder="Enter email*"
+          />
 
-        <button type="submit">Send</button>
-      </form>
+          <button class="form-btn" type="submit">Send</button>
+        </form>
+      </div>
     </section>
   </body>
 </html>
