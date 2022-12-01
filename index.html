@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Finance Ledgen</title>
+    <title>Finance Ledger</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,15 +19,34 @@
   </head>
   <body>
     <header class="header">
-      <nav>
-        <ul class="header__list">
-          <li>Home</li>
-          <li>About</li>
-          <li>Cases</li>
-          <li>Blog</li>
-          <li>Contact</li>
-        </ul>
-      </nav>
+      <div class="header__body container">
+        <nav class="header__nav">
+          <a href="" class="logo">
+            <svg class="logo__icon" width="40" height="35">
+              <use href="images/icons.svg#icon-book"></use>
+            </svg>
+            <div class="icon__container"></div>
+            <span class="logo__span">Finance</span> Ledger
+          </a>
+          <ul class="header__list">
+            <li class="header__list-item">
+              <a href="" class="heder__link">Home</a>
+            </li>
+            <li class="header__list-item">
+              <a href="#" class="heder__link">About</a>
+            </li>
+            <li class="header__list-item">
+              <a href="#" class="heder__link">Cases</a>
+            </li>
+            <li class="header__list-item">
+              <a href="#" class="heder__link">Blog</a>
+            </li>
+            <li class="header__list-item">
+              <a href="#" class="heder__link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <!-- hero -->
     <section>
@@ -36,9 +55,7 @@
       <button type="button">Read More</button>
     </section>
     <!-- feartures-section-->
-    <section>
-      
-    </section>
+    <section></section>
     <!-- busines-cases-->
     <section class="busines-cases">
       <p class="busines-cases-text">This is what we do</p>
@@ -115,13 +132,18 @@
       </ul>
     </section>
 
-     <!--blog-post-one-section-->
+    <!--blog-post-one-section-->
     <section>
-      <p><time datetime="2020-04-16">April 16 2020</time></p> 
+      <p><time datetime="2020-04-16">April 16 2020</time></p>
       <h2>Blog Post One</h2>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, ipsum dignissimos quae laudantium asperiores nam aliquid impedit harum illum dolore explicabo ab dolores itaque rerum temporibus doloribus iste maiores deleniti?</p>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate,
+        ipsum dignissimos quae laudantium asperiores nam aliquid impedit harum
+        illum dolore explicabo ab dolores itaque rerum temporibus doloribus iste
+        maiores deleniti?
+      </p>
       <a href="/">Read Our Blog</a>
-      <img src="./images/blog-section-image.jpg" alt="job process">
+      <img src="./images/blog-section-image.jpg" alt="job process" />
     </section>
 
     <!-- our-team  -->
