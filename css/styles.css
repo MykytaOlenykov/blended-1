@@ -26,7 +26,6 @@ body {
 .container {
   margin-left: auto;
   margin-right: auto;
-  padding: 0 48px;
   max-width: 1360px;
 }
 
@@ -53,6 +52,12 @@ body {
   padding-top: 5px;
 
   background-color: var(--primary-color);
+}
+.header__container {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 48px;
+  max-width: 1360px;
 }
 .header__nav {
   display: flex;
