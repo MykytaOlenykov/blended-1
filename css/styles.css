@@ -84,17 +84,30 @@ body {
 
 /* Request callback  */
 
+<<<<<<< Updated upstream
 .callback-section {
     display: flex;
     align-items: center;
+=======
+.callback-section-container {
+  display: flex;
+  align-items: center;
+>>>>>>> Stashed changes
 
     background-color: var(--third-bg-color);
 }
 
+<<<<<<< Updated upstream
 .callback-container {
     flex-grow: 1;
     padding-right: 30px;
     padding-left: 30px;
+=======
+.callback-box {
+  flex-grow: 1;
+  padding-right: 30px;
+  padding-left: 30px;
+>>>>>>> Stashed changes
 }
 
 .form-input {
