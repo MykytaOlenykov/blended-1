@@ -7,6 +7,7 @@
   --third-bg-color: #f4f4f4;
 
   --form-color: #808080;
+  --titlle-hero-color: #E9E9E9;
 }
 
 body {
@@ -108,6 +109,56 @@ body {
   padding-bottom: 16px;
   padding-top: 16px;
 }
+
+/* hero */
+.hero {
+  padding-top: 229px;
+  padding-bottom: 284px;
+  text-align: center;
+  background-color: var(--primary-color);
+}
+
+.hero-titlle {
+margin-bottom: 25px;
+margin-top: 0;
+color: var(--titlle-hero-color);
+font-weight: 300;
+font-size: 55px;
+line-height: 1.68;
+}
+
+.hero > p {
+  margin-top: 0;
+  margin-bottom: 29px;
+  color: var(--titlle-hero-color);
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.68;
+}
+
+.hero-buttom {
+display: inline;
+padding: 10px 30px 9px 41px;
+min-width: 92px;
+text-align: center;
+border: transparent;
+border-radius: 5px;
+cursor: pointer;
+color: var(--secondary-color);
+background-color: var(--secondary-bg-color);
+font-family: inherit;
+font-weight: 400;
+font-size: 18px;
+line-height: 1.56;
+}
+
+/* На макеті не вказано ховер і фокус: */
+/* .hero-buttom:hover,
+.hero-buttom:focus {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-color);
+} */
+
 
 /* busines-cases*/
 .busines-cases {
