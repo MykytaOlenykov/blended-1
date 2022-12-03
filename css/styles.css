@@ -199,3 +199,65 @@ body {
   border: none;
   border-radius: 5px;
 }
+
+
+
+
+.footer{
+  background-color: var(--primary-color);
+  width: 1360px;
+  height: 110px; 
+  border-radius: 0px;
+  width: 100%;
+  margin-top: 0px;
+}
+
+.footer-list{
+  list-style-type: none;
+  color: var(--secondary-color);
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.icon{
+  font-family: 'Font Awesome 5 Brands';
+  color: var(--secondary-color);
+  margin-top: 20px;
+}
+
+.icon1{
+width: 35px;
+height: 35px;
+margin-right: 24px;
+}
+
+.icon2{
+  width: 35px;
+  height: 35px;
+  margin-right: 24px;
+}
+
+.icon3{
+  width: 40px;
+  height: 35px;
+  margin-right: 24px;
+}
+
+.icon4{
+  width: 31px;
+  height: 35px;
+}
+
+.text{
+font-family: 'Open Sans';
+font-weight: 400;
+font-size: 18px;
+color: var(--secondary-color);
+margin-top: 10px;
+margin-bottom: 16px;
+text-align: center;
+}
+
+
