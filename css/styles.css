@@ -1,0 +1,413 @@
+:root {
+  --primary-color: #333333;
+  --secondary-color: #fff;
+  --accent-color: #0284D0;
+
+  --primary-bg-color: #fff;
+  --secondary-bg-color: #28a745;
+  --third-bg-color: #f4f4f4;
+  --form-color: #808080;
+<<<<<<< Updated upstream
+  --titlle-hero-color: #e9e9e9;
+
+  --shadow-btn: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+=======
+  --footer-color: #333333;
+>>>>>>> Stashed changes
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  line-height: 1.56;
+
+  /* or 156% */
+  color: var(--primary-color);
+
+  background-color: var(--primary-bg-color);
+}
+
+svg {
+  max-width: 100%;
+  height: auto;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1360px;
+}
+
+.section-title {
+  margin-top: 0;
+  margin-bottom: 34px;
+
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+}
+
+.section-title-center {
+  text-align: center;
+}
+
+<<<<<<< Updated upstream
+/* header*/
+
+.header {
+  width: 100%;
+  /* position: absolute;
+  left: 0;
+  top: 0; */
+  padding-top: 5px;
+
+  background-color: var(--primary-color);
+}
+.header__container {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 48px;
+  max-width: 1360px;
+}
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: block;
+  font-size: 35px;
+  line-height: calc(42 / 35);
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  color: var(--secondary-color);
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.logo__icon {
+  display: block;
+  fill: var(--secondary-bg-color);
+  margin-right: 10px;
+}
+
+.logo__span {
+  display: block;
+  color: var(--secondary-bg-color);
+  margin-right: 10px;
+}
+
+.header__list {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 38px;
+  color: var(--secondary-color);
+  list-style: none;
+  text-decoration: none;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.heder__link {
+  color: inherit;
+  text-decoration: none;
+  padding-bottom: 16px;
+  padding-top: 16px;
+}
+
+/* hero */
+.hero {
+  padding-top: 229px;
+  padding-bottom: 284px;
+  text-align: center;
+  background-color: var(--primary-color);
+}
+
+.hero-titlle {
+  margin-bottom: 25px;
+  margin-top: 0;
+  color: var(--titlle-hero-color);
+  font-weight: 300;
+  font-size: 55px;
+  line-height: 1.68;
+}
+
+.hero > p {
+  margin-top: 0;
+  margin-bottom: 29px;
+  color: var(--titlle-hero-color);
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.68;
+}
+
+.hero-buttom {
+  display: inline;
+  padding: 10px 30px 9px 41px;
+  min-width: 92px;
+  text-align: center;
+  border: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  color: var(--secondary-color);
+  background-color: var(--secondary-bg-color);
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+}
+
+/* На макеті не вказано ховер і фокус: */
+/* .hero-buttom:hover,
+.hero-buttom:focus {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-color);
+} */
+
+=======
+/* We provide */
+
+.provide-container {
+  background-color: var(--secondary-bg-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.provide-content {
+    max-width: 680px;
+    padding: 84px 44px 84px 30px;
+    color: var(--secondary-color);
+  }
+
+.provide-subtitle {
+  font-size: 20px;
+  line-height: 1.65;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.provide-title {
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+  margin-top: 0;
+  margin-bottom: 26px;
+}
+.provide-text {
+  margin-top: 0;
+  margin-bottom: 17px;
+}
+
+.secondary-button {
+background-color: var(--secondary-bg-color);
+color: var(--secondary-color);
+font-family: inherit;
+border: 1px solid #FFFFFF;
+border-radius: 5px;
+padding: 11px 27px 12px 42px;
+width: 167px;
+height: 50px;
+cursor: pointer;
+}
+
+>>>>>>> Stashed changes
+/* busines-cases*/
+.busines-cases {
+  text-align: center;
+}
+
+.busines-cases-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.65;
+}
+
+.busines-cases-title {
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+}
+
+/* our team  */
+
+.section-text {
+  font-size: 20px;
+  line-height: 1.65;
+  text-align: center;
+}
+
+.section-descr {
+  text-align: center;
+}
+
+.team-title {
+  font-size: 25px;
+  line-height: 1.28;
+  text-align: center;
+}
+
+.team-descr {
+  text-align: center;
+}
+
+/* Request callback  */
+
+.callback-container {
+  display: flex;
+  align-items: center;
+
+  background-color: var(--third-bg-color);
+}
+
+.callback-box {
+  flex-grow: 1;
+  flex-shrink: 0;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.form-input {
+  padding: 6px 5px 5px 5px;
+  height: 40px;
+  width: 100%;
+
+  border: 1px solid #f5f5f5;
+  border-radius: 0px;
+}
+
+.form-input,
+.form-input::placeholder {
+  font-size: 18px;
+  line-height: 1.56;
+  color: var(--form-color);
+}
+
+.form-input:nth-child(1) {
+  margin-bottom: 36px;
+}
+
+.form-input:nth-child(2) {
+  margin-bottom: 60px;
+}
+
+.form-btn {
+  padding-top: 7px;
+  padding-bottom: 10px;
+  width: 100%;
+
+  line-height: 1.39;
+  color: var(--secondary-color);
+
+  background-color: var(--secondary-bg-color);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-btn:hover,
+.form-btn:focus {
+  box-shadow: var(--shadow-btn);
+}
+
+/* Footer  */
+
+.footer {
+  background-color: var(--primary-color);
+  width: 1360px;
+  height: 110px;
+  border-radius: 0px;
+  width: 100%;
+  margin-top: 0px;
+}
+
+.footer-list {
+  list-style-type: none;
+  color: var(--secondary-color);
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.facebook {
+  margin-right: 24px;
+  margin-top: 20px;
+}
+
+.twitter {
+  margin-right: 24px;
+  margin-top: 20px;
+}
+
+.youtube {
+  margin-right: 24px;
+  margin-top: 20px;
+}
+
+.linkedin {
+  margin-top: 20px;
+}
+
+.footer-text {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--secondary-color);
+  margin-top: 10px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+/* Footer */
+.footer-container {
+  background-color: var(--footer-color);
+  max-width: 1360px;
+  padding-top: 20px;
+  padding-bottom: 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-container p {
+color: var(--secondary-color);
+text-align: center;
+margin-top: 0;
+margin-bottom: 0;
+}
+
+.icons-container {
+display: flex;
+flex-wrap: wrap;
+gap: 25px;
+align-items: center;
+justify-content: center;
+ }
+
+.icons-container, .social-icons {
+margin-top: 0;
+margin-bottom: 10px;
+padding: 0;
+}
+
+.icons-container li {
+  align-items: baseline;
+}
+.icons-container a {
+color: var(--primary-bg-color);
+transition-property: color;
+transition-duration: 0.2s;
+cursor: pointer;
+}
+.icons-container a:hover, .icons-container a:focus {
+color: var(--accent-color);
+}
