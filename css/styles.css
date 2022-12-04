@@ -164,6 +164,28 @@ body {
   background-color: var(--primary-bg-color);
   color: var(--primary-color);
 } */
+/*features*/
+.feartures-section {
+background:var(--third-bg-color);
+}
+
+.features {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.65;
+  margin: 0 16px;
+ }
+
+.features-list {
+  text-align: center;
+  list-style-type: none;
+  display: flex;
+  align-items: center; 
+  justify-content: space-between;
+  gap: 71px;
+  padding: 66 40px;
+}
+
 
 /* busines-cases*/
 .busines-cases {
