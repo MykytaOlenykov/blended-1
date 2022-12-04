@@ -97,8 +97,6 @@ body {
   display: flex;
   align-items: center;
   gap: 38px;
-  font-size: 18px;
-  line-height: 1.5555555556;
   color: var(--secondary-color);
   list-style: none;
   text-decoration: none;
