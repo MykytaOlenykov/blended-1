@@ -1,7 +1,4 @@
 :root {
-  --primary-color: #333333;
-  --secondary-color: #fff;
-
   --primary-bg-color: #fff;
   --secondary-bg-color: #28a745;
   --third-bg-color: #f4f4f4;
@@ -222,6 +219,55 @@ background:var(--third-bg-color);
   font-weight: 300;
   font-size: 38px;
   line-height: 1.26;
+}
+
+
+/*blog-post-one-section*/
+.blog-post-one{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.blog-post{
+    margin: 0;
+    background-color:var(--bg-color-blog-section);
+    color: var(--primary-bg-color);
+    /* height: 517px; */
+}
+.time{
+    margin: 0;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 112px;
+    padding-left: 30px;
+}
+.section-name{
+    margin: 0;
+    font-size: 38px;
+    font-weight: 300;
+    margin-top: 5px;
+    margin-bottom: 0;
+    padding-left: 30px;
+}
+.text{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 26px;
+    margin-bottom: 28px;
+    padding-left: 30px;
+    padding-right: 30px;  
+}
+
+.link{
+    color: var(--primary-bg-color);
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    margin-left: 30px;
+    margin-top: 17px;
+    padding: 11px 31px 10px 42px;
+    border: 1px solid white;
+    border-radius: 5px;
 }
 
 /* our team  */
