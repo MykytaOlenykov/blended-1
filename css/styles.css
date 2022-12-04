@@ -11,6 +11,9 @@
 
   --shadow-btn: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
+
+  --button-active-blue: #0376b8;
+  --button-active-green: #23913d;
 }
 
 body {
@@ -110,10 +113,27 @@ body {
 }
 
 .heder__link {
+  position: relative;
   color: inherit;
   text-decoration: none;
   padding-bottom: 16px;
   padding-top: 16px;
+}
+.heder__link:hover,
+.heder__link:focus {
+  color: var(--button-active-green);
+}
+.heder__link:hover::after,
+.heder__link:focus::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 8px;
+  width: 100%;
+  height: 2px;
+  border-radius: 1px;
+
+  background-color: var(--button-active-green);
 }
 
 /* hero */
