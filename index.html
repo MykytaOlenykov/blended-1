@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Finance Ledgen</title>
+    <title>Finance Ledger</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,21 +19,51 @@
   </head>
   <body>
     <header class="header">
-      <nav>
-        <ul class="header__list">
-          <li>Home</li>
-          <li>About</li>
-          <li>Cases</li>
-          <li>Blog</li>
-          <li>Contact</li>
-        </ul>
-      </nav>
+      <div class="header__body header__container">
+        <nav class="header__nav">
+          <a href="" class="logo">
+            <svg class="logo__icon" width="40" height="35">
+              <use href="images/icons.svg#icon-book"></use>
+            </svg>
+            <div class="icon__container"></div>
+            <span class="logo__span">Finance</span> Ledger
+          </a>
+          <ul class="header__list">
+            <li class="header__list-item">
+              <a href="" class="heder__link">Home</a>
+            </li>
+            <li class="header__list-item">
+              <a href="#" class="heder__link">About</a>
+            </li>
+            <li class="header__list-item">
+              <a href="#" class="heder__link">Cases</a>
+            </li>
+            <li class="header__list-item">
+              <a href="#" class="heder__link">Blog</a>
+            </li>
+            <li class="header__list-item">
+              <a href="#" class="heder__link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <!-- hero -->
-    <section>
-      <h1>The Sky Is The Limit</h1>
+    <section class="hero">
+      <h1 class="hero-titlle">The Sky Is The Limit</h1>
       <p>We provide world class financial assistance</p>
-      <button type="button">Read More</button>
+      <button class="hero-buttom" type="button">Read More</button>
+    </section>
+    <!-- feartures-section-->
+    <section class="feartures-section">
+              <ul class="features-list">
+          <li><h3 class="features">Investmant Banking</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, necessitatibus!</p></li>
+          <li><h3 class="features">Portfolio Manager</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, necessitatibus!</p></li>
+          <li><h3 class="features">Tax & Custudio</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, necessitatibus!</p></li>
+        </ul>          
     </section>
     <!-- busines-cases-->
     <section class="busines-cases">
@@ -111,6 +141,7 @@
       </ul>
     </section>
 
+
      <!--blog-post-one-section-->
     <section class="blog-post-one">
       <div class="blog-post">
@@ -120,12 +151,13 @@
       <a class="link" href="/">Read Our Blog</a>
     </div>
    <img src="./images/blog-section-image.jpg" alt="job process" width="680">
+
     </section>
 
     <!-- our-team  -->
     <section class="section">
       <p class="section-text">Who we are</p>
-      <h2 class="section-title">Our Professional Team</h2>
+      <h2 class="section-title section-title-center">Our Professional Team</h2>
       <p class="section-descr">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
         sapiente!
@@ -155,30 +187,104 @@
 
     <!-- Request callback -->
     <section>
-      <img
-        src="./images/request-callback-img.jpg"
-        alt="The person leaves a feedback"
-      />
-
-      <h2>Request Callback</h2>
-
-      <form>
-        <input
-          type="text"
-          name="name"
-          aria-label="user name"
-          placeholder="Enter your name"
+      <div class="container callback-container">
+        <img
+          src="./images/request-callback-img.jpg"
+          alt="The person leaves a feedback"
+          width="680"
         />
 
-        <input
-          type="email"
-          name="email"
-          aria-label="email"
-          placeholder="Enter email*"
-        />
+        <div class="callback-box">
+          <h2 class="section-title">Request Callback</h2>
 
-        <button type="submit">Send</button>
-      </form>
+          <form class="callback-form">
+            <input
+              class="form-input form-input-name"
+              type="text"
+              name="name"
+              aria-label="user name"
+              placeholder="Enter your name"
+            />
+
+            <input
+              class="form-input form-input-email"
+              type="email"
+              name="email"
+              aria-label="email"
+              placeholder="Enter email*"
+            />
+
+            <button class="form-btn" type="submit">Send</button>
+          </form>
+        </div>
+      </div>
     </section>
+
+    <footer class="footer">
+      <ul class="footer-list">
+        <li class="facebook">
+          <a
+            class="footer-link"
+            href="https://www.facebook.com/"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <img
+              src="./images/facebook.svg"
+              alt="facebook"
+              width="35"
+              height="35"
+          /></a>
+        </li>
+        <li class="twitter">
+          <a
+            class="footer-link"
+            href="https://twitter.com/"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <img
+              src="./images/twitter.svg"
+              alt="twitter"
+              width="35"
+              height="35"
+            />
+          </a>
+        </li>
+        <li class="youtube">
+          <a
+            class="footer-link"
+            href="https://www.youtube.com/"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <img
+              src="./images/youtube.svg"
+              alt="youtube"
+              width="40"
+              height="35"
+            />
+          </a>
+        </li>
+        <li class="linkedin">
+          <a
+            class="footer-link"
+            href="https://www.linkedin.com/"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <img
+              src="./images/linkedin.svg"
+              alt="linkedin"
+              width="31"
+              height="35"
+            />
+          </a>
+        </li>
+      </ul>
+      <p class="footer-text">
+        Copyright <span>&#169;</span> 2021 - FinanceLedger
+      </p>
+    </footer>
   </body>
 </html>
