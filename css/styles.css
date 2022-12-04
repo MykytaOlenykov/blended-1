@@ -12,9 +12,6 @@
 
   --shadow-btn: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-=======
-  --footer-color: #333333;
->>>>>>> Stashed changes
 }
 
 body {
@@ -399,9 +396,6 @@ margin-bottom: 10px;
 padding: 0;
 }
 
-.icons-container li {
-  align-items: baseline;
-}
 .icons-container a {
 color: var(--primary-bg-color);
 transition-property: color;
