@@ -7,7 +7,7 @@
   --secondary-bg-color: #28a745;
   --third-bg-color: #f4f4f4;
   --form-color: #808080;
-<<<<<<< Updated upstream
+
   --titlle-hero-color: #e9e9e9;
 
   --shadow-btn: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
@@ -55,7 +55,6 @@ svg {
   text-align: center;
 }
 
-<<<<<<< Updated upstream
 /* header*/
 
 .header {
@@ -172,7 +171,7 @@ svg {
   color: var(--primary-color);
 } */
 
-=======
+
 /* We provide */
 
 .provide-container {
@@ -218,7 +217,6 @@ height: 50px;
 cursor: pointer;
 }
 
->>>>>>> Stashed changes
 /* busines-cases*/
 .busines-cases {
   text-align: center;
@@ -317,7 +315,7 @@ cursor: pointer;
   box-shadow: var(--shadow-btn);
 }
 
-/* Footer  */
+/*/* Footer  */
 
 .footer {
   background-color: var(--primary-color);
@@ -364,10 +362,11 @@ cursor: pointer;
   margin-top: 10px;
   margin-bottom: 16px;
   text-align: center;
-}
+}*/
+
 /* Footer */
 .footer-container {
-  background-color: var(--footer-color);
+  background-color: var(--primary-color);
   max-width: 1360px;
   padding-top: 20px;
   padding-bottom: 16px;
