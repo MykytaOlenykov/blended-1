@@ -42,7 +42,8 @@ body {
 .blog-post-one{
     margin: 0;
     padding: 0;
-    display: flex;
+    display: flex;   
+
 }
 .blog-post{
     margin: 0;
