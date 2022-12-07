@@ -1,13 +1,15 @@
 :root {
+  --primary-color: #333333;
+  --secondary-color: #fff;
+
   --primary-bg-color: #fff;
   --secondary-bg-color: #28a745;
   --third-bg-color: #f4f4f4;
-  --bg-color-blog-section: #0284D0;
-
 
   --form-color: #808080;
   --titlle-hero-color: #e9e9e9;
 
+  --bg-color-blog-section: #0284d0;
   --shadow-btn: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 
@@ -24,6 +26,11 @@ body {
   color: var(--primary-color);
 
   background-color: var(--primary-bg-color);
+}
+
+svg {
+  max-width: 100%;
+  height: auto;
 }
 
 .list {
@@ -176,16 +183,15 @@ body {
   font-size: 18px;
   line-height: 1.56;
 }
-
-/* На макеті не вказано ховер і фокус: */
-/* .hero-buttom:hover,
+.hero-buttom:hover,
 .hero-buttom:focus {
-  background-color: var(--primary-bg-color);
-  color: var(--primary-color);
-} */
+  background-color: var(--button-active-green);
+  color: var(--button-active-blue);
+  box-shadow: var(--shadow-btn);
+}
 /*features*/
 .feartures-section {
-background:var(--third-bg-color);
+  background: var(--third-bg-color);
 }
 
 .features {
@@ -193,18 +199,70 @@ background:var(--third-bg-color);
   font-weight: 400;
   line-height: 1.65;
   margin: 0 16px;
- }
+}
 
 .features-list {
   text-align: center;
   list-style-type: none;
   display: flex;
-  align-items: center; 
+  align-items: center;
   justify-content: space-between;
   gap: 71px;
   padding: 66 40px;
 }
 
+/* We provide */
+
+.provide-container {
+  background-color: var(--secondary-bg-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.provide-content {
+    max-width: 680px;
+    padding: 84px 44px 84px 30px;
+    color: var(--secondary-color);
+  }
+
+.provide-subtitle {
+  font-size: 20px;
+  line-height: 1.65;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.provide-title {
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+  margin-top: 0;
+  margin-bottom: 26px;
+}
+.provide-text {
+  margin-top: 0;
+  margin-bottom: 17px;
+}
+
+.secondary-button {
+background-color: var(--secondary-bg-color);
+color: var(--secondary-color);
+font-family: inherit;
+border: 1px solid #FFFFFF;
+border-radius: 5px;
+padding: 11px 27px 12px 42px;
+width: 167px;
+height: 50px;
+cursor: pointer;
+}
+.secondary-button:hover, .secondary-button:focus {
+  background-color: var(--button-active-blue);
+  box-shadow: var(--shadow-btn);
+}
+.secondary-button:active {
+  background-color: var(--button-active-green);
+  box-shadow: var(--shadow-btn);
+}
 
 /* busines-cases*/
 .busines-cases {
@@ -222,7 +280,6 @@ background:var(--third-bg-color);
   font-size: 38px;
   line-height: 1.26;
 }
-
 
 /*blog-post-one-section*/
 .blog-post-one{
@@ -276,7 +333,6 @@ background:var(--third-bg-color);
 .button-blog:hover{
   background-color: var(--button-active-blue);
 }
-
 /* our team  */
 
 .section-text {
