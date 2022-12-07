@@ -283,6 +283,7 @@ svg {
 }
 
 /*blog-post-one-section*/
+
 .blog-post-one {
   margin: 0;
   padding: 0;
@@ -299,6 +300,58 @@ svg {
   color: var(--primary-bg-color);
   max-width: 680px;
   justify-content: space-between;
+
+.blog-container{
+  display: flex;
+}
+
+.blog-post-one{
+   margin: 0;
+    padding: 0;
+    display: flex;   
+    justify-content: center;
+}
+.blog-post{
+    margin: 0;
+    padding-top: 112px;
+    padding-left: 30px;
+    padding-bottom: 113px;
+    padding-right: 44px;
+    background-color:var(--bg-color-blog-section);
+    color: var(--primary-bg-color);
+    max-width: 680px;
+    justify-content: space-between;
+}
+
+.time{
+    margin: 0;
+    font-size: 20px;
+}
+
+.section-name{
+    margin: 0;
+    font-size: 38px;
+    font-weight: 300;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.text{
+    margin-top: 26px;
+    margin-bottom: 0;
+    width: 606px;;
+}
+
+.button-blog{
+    background-color: var(--bg-color-blog-section);
+    display: inline-block;
+    margin-top: 17px;
+    padding: 10px 35px 10px 35px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: var(--primary-bg-color);
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: var(--shadow-btn);
 }
 
 .time {
