@@ -177,7 +177,7 @@ svg {
   line-height: 1.68;
 }
 
-.hero > p {
+.hero-paragraph {
   margin-top: 0;
   margin-bottom: 29px;
   color: var(--titlle-hero-color);
@@ -204,9 +204,9 @@ svg {
 .hero-buttom:hover,
 .hero-buttom:focus {
   background-color: var(--button-active-green);
-  color: var(--button-active-blue);
   box-shadow: var(--shadow-btn);
 }
+
 /*features*/
 .features-section {
   background: var(--third-bg-color);
