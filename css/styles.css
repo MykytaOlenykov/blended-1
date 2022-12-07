@@ -192,28 +192,23 @@ svg {
 /*features*/
 .feartures-section {
   background: var(--third-bg-color);
-}
+  padding: 40px 66px 19px 66px;
+  }
 
 .features {
   font-size: 20px;
-  font-weight: 400;
+  font-weight: inherit;
   line-height: 1.65;
-  margin: 0 16px;
-}
+  margin-bottom: 16px;
+  }
 
 .features-list {
   text-align: center;
-  list-style-type: none;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 71px;
-  padding: 66 40px;
-}
-
-
-
-
+    }
 
 /* We provide */
 
