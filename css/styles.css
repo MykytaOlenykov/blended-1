@@ -286,6 +286,10 @@ cursor: pointer;
 }
 
 /*blog-post-one-section*/
+.blog-container{
+  display: flex;
+}
+
 .blog-post-one{
    margin: 0;
     padding: 0;
@@ -293,7 +297,6 @@ cursor: pointer;
     justify-content: center;
 }
 .blog-post{
-  
     margin: 0;
     padding-top: 112px;
     padding-left: 30px;
@@ -309,6 +312,7 @@ cursor: pointer;
     margin: 0;
     font-size: 20px;
 }
+
 .section-name{
     margin: 0;
     font-size: 38px;
@@ -323,7 +327,7 @@ cursor: pointer;
 }
 
 .button-blog{
-  background-color: var(--bg-color-blog-section);
+    background-color: var(--bg-color-blog-section);
     display: inline-block;
     margin-top: 17px;
     padding: 10px 35px 10px 35px;
@@ -332,6 +336,7 @@ cursor: pointer;
     color: var(--primary-bg-color);
     text-decoration: none;
     cursor: pointer;
+    box-shadow: var(--shadow-btn);
 }
 
 .button-blog:hover{
