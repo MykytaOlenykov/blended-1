@@ -27,6 +27,11 @@ body {
 
   background-color: var(--primary-bg-color);
 }
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 
 svg {
   max-width: 100%;
@@ -192,14 +197,14 @@ svg {
 .feartures-section {
   background: var(--third-bg-color);
   padding: 40px 66px 19px 66px;
-  }
+}
 
 .features {
   font-size: 20px;
   font-weight: inherit;
   line-height: 1.65;
   margin-bottom: 16px;
-  }
+}
 
 .features-list {
   text-align: center;
@@ -208,7 +213,6 @@ svg {
   justify-content: space-between;
   gap: 71px;
 }
-
 
 /* We provide */
 
@@ -244,24 +248,22 @@ svg {
 }
 
 .secondary-button {
-background-color: var(--secondary-bg-color);
-color: var(--secondary-color);
-font-family: inherit;
-border: 1px solid #FFFFFF;
-border-radius: 5px;
-padding: 11px 27px 12px 42px;
-width: 167px;
-height: 50px;
-cursor: pointer;
+  background-color: var(--secondary-bg-color);
+  color: var(--secondary-color);
+  font-family: inherit;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  padding: 11px 27px 12px 42px;
+  width: 167px;
+  height: 50px;
+  cursor: pointer;
 }
 
-.secondary-button:hover, .secondary-button:focus {
+.secondary-button:hover,
+.secondary-button:focus {
   background-color: var(--button-active-green);
   box-shadow: var(--shadow-btn);
 }
-
-
-
 
 /* busines-cases*/
 .busines-cases {
@@ -281,77 +283,102 @@ cursor: pointer;
 }
 
 /*blog-post-one-section*/
-.blog-post-one{
-   margin: 0;
-    padding: 0;
-    display: flex;   
-    justify-content: center;
+.blog-post-one {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
 }
-.blog-post{
-  
-    margin: 0;
-    padding-top: 112px;
-    padding-left: 30px;
-    padding-bottom: 113px;
-    padding-right: 44px;
-    background-color:var(--bg-color-blog-section);
-    color: var(--primary-bg-color);
-    max-width: 680px;
-    justify-content: space-between;
-}
-
-.time{
-    margin: 0;
-    font-size: 20px;
-}
-.section-name{
-    margin: 0;
-    font-size: 38px;
-    font-weight: 300;
-    margin-top: 5px;
-    margin-bottom: 0;
-}
-.text{
-    margin-top: 26px;
-    margin-bottom: 0;
-    width: 606px;;
-}
-
-.button-blog{
+.blog-post {
+  margin: 0;
+  padding-top: 112px;
+  padding-left: 30px;
+  padding-bottom: 113px;
+  padding-right: 44px;
   background-color: var(--bg-color-blog-section);
-    display: inline-block;
-    margin-top: 17px;
-    padding: 10px 35px 10px 35px;
-    border: 1px solid white;
-    border-radius: 5px;
-    color: var(--primary-bg-color);
-    text-decoration: none;
-    cursor: pointer;
+  color: var(--primary-bg-color);
+  max-width: 680px;
+  justify-content: space-between;
 }
 
-.button-blog:hover{
+.time {
+  margin: 0;
+  font-size: 20px;
+}
+.section-name {
+  margin: 0;
+  font-size: 38px;
+  font-weight: 300;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+.text {
+  margin-top: 26px;
+  margin-bottom: 0;
+  width: 606px;
+}
+
+.button-blog {
+  background-color: var(--bg-color-blog-section);
+  display: inline-block;
+  margin-top: 17px;
+  padding: 10px 35px 10px 35px;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: var(--primary-bg-color);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button-blog:hover {
   background-color: var(--button-active-blue);
 }
 /* our team  */
 
-.section-text {
+.section-team {
+  padding-top: 49px;
+  padding-bottom: 59px;
+}
+.team-container {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.team-container-text {
   font-size: 20px;
   line-height: 1.65;
   text-align: center;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.section-title {
+  margin-bottom: 34px;
 }
 
 .section-descr {
   text-align: center;
+  margin-top: 0;
+  margin-bottom: 45px;
+}
+.team-list {
+  display: flex;
+  gap: 15px;
 }
 
+.team-list .team-item {
+}
 .team-title {
+  font-weight: 400;
   font-size: 25px;
   line-height: 1.28;
   text-align: center;
+  margin-top: 13px;
 }
 
 .team-descr {
   text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /* Request callback  */
@@ -461,4 +488,3 @@ cursor: pointer;
   margin-bottom: 16px;
   text-align: center;
 }
-
