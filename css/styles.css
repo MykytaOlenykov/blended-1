@@ -336,12 +336,16 @@ cursor: pointer;
     color: var(--primary-bg-color);
     text-decoration: none;
     cursor: pointer;
-    box-shadow: var(--shadow-btn);
 }
 
-.button-blog:hover{
+.button-blog:hover,
+.button-blog:focus{
   background-color: var(--button-active-blue);
+  box-shadow: var(--shadow-btn);
+ 
 }
+
+
 /* our team  */
 
 .section-text {
