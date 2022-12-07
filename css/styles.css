@@ -339,10 +339,9 @@ cursor: pointer;
 }
 
 .button-blog:hover,
-.button-blog:focus{
+.button-blog:focus {
   background-color: var(--button-active-blue);
   box-shadow: var(--shadow-btn);
- 
 }
 
 
