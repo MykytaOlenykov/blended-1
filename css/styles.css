@@ -27,6 +27,20 @@ body {
 
   background-color: var(--primary-bg-color);
 }
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -194,16 +208,20 @@ svg {
   box-shadow: var(--shadow-btn);
 }
 /*features*/
-.feartures-section {
+.features-section {
   background: var(--third-bg-color);
   padding: 40px 66px 19px 66px;
 }
 
-.features {
+.features-title {
   font-size: 20px;
   font-weight: inherit;
   line-height: 1.65;
   margin-bottom: 16px;
+  margin-top: 0;
+}
+.features {
+  margin: 0;
 }
 
 .features-list {
