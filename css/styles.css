@@ -66,14 +66,13 @@ svg {
   left: 0;
   top: 0; */
   padding-top: 5px;
-
-  background-color: var(--primary-color);
 }
 .header__container {
   margin-left: auto;
   margin-right: auto;
   padding: 0 48px;
   max-width: 1360px;
+  background-color: var(--primary-color);
 }
 .header__nav {
   display: flex;
@@ -208,7 +207,8 @@ svg {
   align-items: center;
   justify-content: space-between;
   gap: 71px;
-    }
+}
+
 
 /* We provide */
 
@@ -220,10 +220,10 @@ svg {
 }
 
 .provide-content {
-    max-width: 680px;
-    padding: 84px 44px 84px 30px;
-    color: var(--secondary-color);
-  }
+  max-width: 680px;
+  padding: 84px 44px 84px 30px;
+  color: var(--secondary-color);
+}
 
 .provide-subtitle {
   font-size: 20px;
