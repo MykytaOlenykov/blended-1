@@ -1,3 +1,4 @@
+
 :root {
   --primary-color: #333333;
   --secondary-color: #fff;
@@ -211,6 +212,10 @@ svg {
   padding: 66 40px;
 }
 
+
+
+
+
 /* We provide */
 
 .provide-container {
@@ -260,6 +265,9 @@ cursor: pointer;
   background-color: var(--button-active-green);
   box-shadow: var(--shadow-btn);
 }
+
+
+
 
 /* busines-cases*/
 .busines-cases {
@@ -459,3 +467,4 @@ cursor: pointer;
   margin-bottom: 16px;
   text-align: center;
 }
+
