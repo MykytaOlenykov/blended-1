@@ -162,9 +162,12 @@ svg {
 
 /* hero */
 .hero {
-  padding-top: 229px;
-  padding-bottom: 284px;
   text-align: center;
+}
+
+.hero-container {
+  padding-top: 210px;
+  padding-bottom: 284px;
   background-color: var(--primary-color);
 }
 
@@ -174,7 +177,7 @@ svg {
   color: var(--titlle-hero-color);
   font-weight: 300;
   font-size: 55px;
-  line-height: 1.68;
+  line-height: 1.2;
 }
 
 .hero-paragraph {
@@ -243,7 +246,8 @@ svg {
 
 .provide-content {
   max-width: 680px;
-  padding: 84px 44px 84px 30px;
+  padding-left: 30px;
+  padding-right: 44px;
   color: var(--secondary-color);
 }
 
@@ -269,6 +273,8 @@ svg {
   background-color: var(--secondary-bg-color);
   color: var(--secondary-color);
   font-family: inherit;
+  font-size: 18px;
+  line-height: 1.56;
   border: 1px solid #ffffff;
   border-radius: 5px;
   padding: 11px 27px 12px 42px;
@@ -300,15 +306,7 @@ svg {
   font-size: 20px;
   line-height: 1.65;
   margin-top: 0;
-  margin-bottom: 0;
-}
-
-.busines-cases-title {
-  font-weight: 300;
-  font-size: 38px;
-  line-height: 1.26;
-  margin-top: 16px;
-  margin-bottom: 34px;
+  margin-bottom: 16px;
 }
 
 .busines-text {
@@ -459,14 +457,13 @@ svg {
   gap: 15px;
 }
 
-.team-list .team-item {
-}
 .team-title {
   font-weight: 400;
   font-size: 25px;
   line-height: 1.28;
   text-align: center;
   margin-top: 13px;
+  margin-bottom: 12px;
 }
 
 .team-descr {
@@ -498,6 +495,10 @@ svg {
 
   border: 1px solid #f5f5f5;
   border-radius: 0px;
+}
+
+.form-input:focus {
+  outline: 4px solid var(--button-active-green);
 }
 
 .form-input,
@@ -532,6 +533,7 @@ svg {
 .form-btn:hover,
 .form-btn:focus {
   box-shadow: var(--shadow-btn);
+  background-color: var(--button-active-green);
 }
 
 /* Footer  */
