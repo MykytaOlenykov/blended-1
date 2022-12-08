@@ -286,18 +286,40 @@ svg {
 /* busines-cases*/
 .busines-cases {
   text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.busines-container {
+  padding-left: 28px;
+  padding-right: 28px;
 }
 
 .busines-cases-text {
   font-weight: 400;
   font-size: 20px;
   line-height: 1.65;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .busines-cases-title {
   font-weight: 300;
   font-size: 38px;
   line-height: 1.26;
+  margin-top: 16px;
+  margin-bottom: 34px;
+}
+
+.busines-text {
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+.busines-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
 }
 
 /*blog-post-one-section*/
