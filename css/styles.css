@@ -492,7 +492,7 @@ svg {
 }
 
 .form-input:focus {
-  outline: 4px solid var(--button-active-green);
+  outline: 1px solid var(--button-active-green);
 }
 
 .form-input,
