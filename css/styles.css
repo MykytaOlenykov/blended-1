@@ -422,6 +422,20 @@ svg {
   margin-bottom: 0;
 }
 
+.team-icon {
+  fill: var(--secondary-color);
+}
+
+.soc-list {
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+}
+
+.team-item:not(:last-child) {
+  margin-right: 25px;
+}
+
 /* Request callback  */
 
 .callback-container {
@@ -489,7 +503,7 @@ svg {
 
 .footer {
   background-color: var(--primary-color);
-  padding: 20px 0 16px ;
+  padding: 20px 0 16px;
 }
 
 .footer-list {
@@ -501,10 +515,9 @@ svg {
   padding: 0;
 }
 
-.footer-item:not(:last-child){
+.footer-item:not(:last-child) {
   margin-right: 25px;
 }
-
 
 .footer-text {
   font-family: "Open Sans";
