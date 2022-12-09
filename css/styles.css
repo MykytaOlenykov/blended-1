@@ -489,11 +489,7 @@ svg {
 
 .footer {
   background-color: var(--primary-color);
-  width: 1360px;
-  height: 110px;
-  border-radius: 0px;
-  width: 100%;
-  margin-top: 0px;
+  padding: 20px 0 16px ;
 }
 
 .footer-list {
@@ -505,24 +501,10 @@ svg {
   padding: 0;
 }
 
-.facebook {
-  margin-right: 24px;
-  margin-top: 20px;
+.footer-item:not(:last-child){
+  margin-right: 25px;
 }
 
-.twitter {
-  margin-right: 24px;
-  margin-top: 20px;
-}
-
-.youtube {
-  margin-right: 24px;
-  margin-top: 20px;
-}
-
-.linkedin {
-  margin-top: 20px;
-}
 
 .footer-text {
   font-family: "Open Sans";
@@ -530,6 +512,11 @@ svg {
   font-size: 18px;
   color: var(--secondary-color);
   margin-top: 10px;
-  margin-bottom: 16px;
+  margin-bottom: 0;
   text-align: center;
+}
+.footer-link {
+  display: flex;
+  align-items: center;
+  height: 100%;
 }
