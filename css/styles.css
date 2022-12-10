@@ -15,6 +15,10 @@
 
   --button-active-blue: #0376b8;
   --button-active-green: #23913d;
+
+  /* Переменные для анимации */
+  --time: 350ms;
+  --cubic: ease;
 }
 
 body {
@@ -143,6 +147,7 @@ svg {
   padding-top: 16px;
   display: block;
 }
+
 .heder__link:hover,
 .heder__link:focus {
   color: var(--button-active-green);
