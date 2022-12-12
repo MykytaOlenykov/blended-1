@@ -90,7 +90,6 @@ svg {
   margin-right: auto;
   padding: 0 48px;
   max-width: 1360px;
-  background-color: var(--primary-color);
   padding-top: 5px;
 }
 .header__nav {
@@ -161,6 +160,20 @@ svg {
 }
 
 /* hero */
+.ovarlay {
+  max-width: 1360px;
+  height: 768px;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: linear-gradient(to right,
+  rgba(0, 0, 0, 0.4),
+  rgba(0, 0, 0, 0.4)),
+  url("../images/hero-background.jpg");
+  background-color: var(--primary-color);
+  background-position: center;
+  background-size: cover;
+}
+
 .hero {
   text-align: center;
 }
@@ -168,7 +181,6 @@ svg {
 .hero-container {
   padding-top: 210px;
   padding-bottom: 284px;
-  background-color: var(--primary-color);
 }
 
 .hero-titlle {
@@ -189,7 +201,10 @@ svg {
 }
 
 .hero-buttom {
-  display: inline;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  margin: 0 auto;
   padding: 10px 30px 9px 41px;
   min-width: 92px;
   text-align: center;
@@ -197,6 +212,7 @@ svg {
   border-radius: 5px;
   cursor: pointer;
   color: var(--secondary-color);
+  fill: currentColor;
   background-color: var(--secondary-bg-color);
   font-family: inherit;
   line-height: 1.56;
