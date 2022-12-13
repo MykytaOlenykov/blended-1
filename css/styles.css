@@ -15,6 +15,10 @@
 
   --button-active-blue: #0376b8;
   --button-active-green: #23913d;
+
+  /* Переменные для анимации */
+  --time: 350ms;
+  --cubic: ease;
 }
 
 body {
@@ -142,6 +146,7 @@ svg {
   padding-top: 16px;
   display: block;
 }
+
 .heder__link:hover,
 .heder__link:focus {
   color: var(--button-active-green);
@@ -438,6 +443,20 @@ svg {
   margin-bottom: 0;
 }
 
+.team-icon {
+  fill: var(--secondary-color);
+}
+
+.soc-list {
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+}
+
+.team-item:not(:last-child) {
+  margin-right: 25px;
+}
+
 /* Request callback  */
 
 .callback-container {
@@ -505,11 +524,7 @@ svg {
 
 .footer {
   background-color: var(--primary-color);
-  width: 1360px;
-  height: 110px;
-  border-radius: 0px;
-  width: 100%;
-  margin-top: 0px;
+  padding: 20px 0 16px;
 }
 
 .footer-list {
@@ -521,23 +536,8 @@ svg {
   padding: 0;
 }
 
-.facebook {
-  margin-right: 24px;
-  margin-top: 20px;
-}
-
-.twitter {
-  margin-right: 24px;
-  margin-top: 20px;
-}
-
-.youtube {
-  margin-right: 24px;
-  margin-top: 20px;
-}
-
-.linkedin {
-  margin-top: 20px;
+.footer-item:not(:last-child) {
+  margin-right: 25px;
 }
 
 .footer-text {
@@ -546,6 +546,11 @@ svg {
   font-size: 18px;
   color: var(--secondary-color);
   margin-top: 10px;
-  margin-bottom: 16px;
+  margin-bottom: 0;
   text-align: center;
+}
+.footer-link {
+  display: flex;
+  align-items: center;
+  height: 100%;
 }
