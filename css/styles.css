@@ -233,6 +233,7 @@ margin-top: 20px;
   margin-top: 20px;
 
 }
+<<<<<<< Updated upstream
 
 .linkedin{
   margin-top: 20px;
@@ -249,3 +250,12 @@ margin-bottom: 16px;
 text-align: center;
 }
 
+=======
+.footer-icon{
+  fill: var(--secondary-color);
+}
+.footer-icon:hover,
+.footer-icon:focus {
+ fill: var(--button-active-green);
+}
+>>>>>>> Stashed changes
