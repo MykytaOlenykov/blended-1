@@ -540,6 +540,7 @@ svg {
   margin-right: 25px;
 }
 
+
 .footer-text {
   font-family: "Open Sans";
   font-weight: 400;
@@ -554,3 +555,14 @@ svg {
   align-items: center;
   height: 100%;
 }
+
+
+
+.footer-icon{
+  fill: var(--secondary-color);
+}
+.footer-icon:hover,
+.footer-icon:focus {
+ fill: var(--button-active-green);
+}
+
