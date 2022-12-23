@@ -145,14 +145,16 @@ svg {
   padding-bottom: 16px;
   padding-top: 16px;
   display: block;
+  transition: color var(--time) var(--cubic);
 }
 
 .heder__link:hover,
 .heder__link:focus {
   color: var(--button-active-green);
 }
-.heder__link:hover::after,
-.heder__link:focus::after {
+
+.heder__link::after,
+.heder__link::after {
   content: "";
   position: absolute;
   left: 0;
@@ -160,8 +162,16 @@ svg {
   width: 100%;
   height: 2px;
   border-radius: 1px;
-
   background-color: var(--button-active-green);
+  transition: transform var(--time);
+  transform: scaleX(0);
+  transform-origin: right;
+}
+
+.heder__link:hover::after,
+.heder__link:focus::after {
+  transform-origin: left;
+  transform: scaleX(1);
 }
 
 /* hero */
@@ -170,10 +180,12 @@ svg {
   height: 768px;
   margin-right: auto;
   margin-left: auto;
-  background-image: linear-gradient(to right,
-  rgba(0, 0, 0, 0.4),
-  rgba(0, 0, 0, 0.4)),
-  url("../images/hero-background.jpg");
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url("../images/hero-background.jpg");
   background-color: var(--primary-color);
   background-position: center;
   background-size: cover;
@@ -221,6 +233,8 @@ svg {
   background-color: var(--secondary-bg-color);
   font-family: inherit;
   line-height: 1.56;
+  transition: background-color var(--time) var(--cubic),
+    box-shadow var(--time) var(--cubic);
 }
 .hero-buttom:hover,
 .hero-buttom:focus {
@@ -540,7 +554,6 @@ svg {
   margin-right: 25px;
 }
 
-
 .footer-text {
   font-family: "Open Sans";
   font-weight: 400;
@@ -556,13 +569,10 @@ svg {
   height: 100%;
 }
 
-
-
-.footer-icon{
+.footer-icon {
   fill: var(--secondary-color);
 }
 .footer-icon:hover,
 .footer-icon:focus {
- fill: var(--button-active-green);
+  fill: var(--button-active-green);
 }
-
