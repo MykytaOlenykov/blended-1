@@ -267,6 +267,18 @@ svg {
   gap: 71px;
 }
 
+.features-icon {
+  margin: 0 auto 15px;
+    display: flex;
+ align-items: center;
+ justify-content: center;
+ border-radius: 50%;
+ width: 67px;
+ height: 67px;
+ fill: #FFFFFF;
+ background-color: #28A745;
+}
+
 /* We provide */
 
 .provide-container {
